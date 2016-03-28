@@ -24,12 +24,12 @@ Optimized for game- and graphic design projects.
   - Gpick Color Palette `.gpa`
 
 ### Version
-[`-`](https://github.com/arcticicestudio/lumio/releases/latest)
+[`0.0.0`](https://github.com/arcticicestudio/lumio/releases/latest)
 
 For older versions check out the [GitHub Repository](https://github.com/arcticicestudio/lumio).
 
 ### Changelog
-[`-`](CHANGELOG.md)
+[`0.0.0`](CHANGELOG.md)
 
 ### Development
 #### Workflow
