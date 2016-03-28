@@ -2,34 +2,35 @@ Lumio
 =====
 
 ### Description
-Lumio is a warm pastel color palette focuses to create a steamed, but colorful comic-like ambiance.
+Lumio is a warm pastel color palette focuses to create a steamed, but colorful comic-like ambiance.  
 Optimized for game- and graphic design projects.
 
 ![Lumio](src/main/native/lumio.png)
 
 ### Related Projects
-  - [Lumio - Java](https://github.com/arcticicestudio/lumio-java)
+  - <img src="https://github.com/favicon.ico" width=16 height=16/> [Lumio - Java](https://github.com/arcticicestudio/lumio-java)
 
 ### File Formats
 **Non-Native**
-  - Sass `.scss`
-  - LESSCSS `.less`
-  - JSON `.json`
-  - XML `.xml`
+  - Alias/WaveFront Material `.mtl`
+  - <img src="https://www.gimp.org/images/wilber16.png" width=16 height=16/>/<img src="https://inkscape.org/favicon.ico" width=16 height=16/> GIMP/Inkscape Palette `.gpl`
+  - <img src="http://www.json.org/favicon.ico" width=16 height=16/> JSON `.json`
+  - <img src="http://lesscss.org/public/ico/favicon.ico" width=16 height=16/> LESSCSS `.less`
+  - <img src="http://sass-lang.com/favicon.ico" width=16 height=16/> Sass `.scss`
+  - <img src="https://www.w3.org/favicon.ico" width=16 height=16/> XML `.xml`
 
 **Native**
-  - GIMP/Inkscape Palette `.gpl`
-  - Adobe Swatch Exchange `.ase`
-  - Alias/WaveFront Material `.mtl`
-  - Gpick Color Palette `.gpa`
+  - <img src="http://www.adobe.com/favicon.ico" width=16 height=16/> Adobe Swatch Exchange `.ase`
+  - <img src="https://www.gimp.org/images/wilber16.png" width=16 height=16/> GIMP Project `.xcf`
+  - <img src="http://static.gpick.org/image/logo.png" width=16 height=16/> Gpick Color Palette `.gpa`
 
 ### Version
-[`0.0.0`](https://github.com/arcticicestudio/lumio/releases/latest)
+[`1.0.0`](https://github.com/arcticicestudio/lumio/releases/latest)
 
 For older versions check out the [GitHub Repository](https://github.com/arcticicestudio/lumio).
 
 ### Changelog
-[`0.0.0`](CHANGELOG.md)
+[`1.0.0`](CHANGELOG.md)
 
 ### Development
 #### Workflow
@@ -58,7 +59,7 @@ Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>
 ---
 
 ### References
-  - [Lumio]((https://github.com/arcticicestudio/lumio)
-  - [Sass](http://sass-lang.com)
-  - [LESSCSS](http://lesscss.org)  
-  - [Glacier - Git](https://github.com/arcticicestudio/glacier-git)  
+  - <img src="https://github.com/favicon.ico" width=16 height=16/> [Lumio](https://github.com/arcticicestudio/lumio)
+  - <img src="http://sass-lang.com/favicon.ico" width=16 height=16/> [Sass](http://sass-lang.com)
+  - <img src="http://lesscss.org/public/ico/favicon.ico" width=16 height=16/> [LESSCSS](http://lesscss.org)  
+  - <img src="https://github.com/favicon.ico" width=16 height=16/> [Glacier - Git](https://github.com/arcticicestudio/glacier-git)  
