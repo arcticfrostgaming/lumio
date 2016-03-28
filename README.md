@@ -2,7 +2,7 @@ Lumio
 =====
 
 ### Description
-Lumio is a warm pastel color palette focuses to create a steamed, but colorful comic-like ambiance.
+Lumio is a warm pastel color palette focuses to create a steamed, but colorful comic-like ambiance.  
 Optimized for game- and graphic design projects.
 
 ![Lumio](src/main/native/lumio.png)
@@ -59,7 +59,7 @@ Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>
 ---
 
 ### References
-  - [Lumio]((https://github.com/arcticicestudio/lumio)
+  - [Lumio](https://github.com/arcticicestudio/lumio)
   - [Sass](http://sass-lang.com)
   - [LESSCSS](http://lesscss.org)  
   - [Glacier - Git](https://github.com/arcticicestudio/glacier-git)  
