@@ -21,6 +21,7 @@ Optimized for game- and graphic design projects.
 
 **Native**
   - Adobe Swatch Exchange `.ase`
+  - GIMP Project `.xcf`
   - Gpick Color Palette `.gpa`
 
 ### Version
