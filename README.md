@@ -12,15 +12,15 @@ Optimized for game- and graphic design projects.
 
 ### File Formats
 **Non-Native**
-  - Sass `.scss`
-  - LESSCSS `.less`
+  - Alias/WaveFront Material `.mtl`
+  - GIMP/Inkscape Palette `.gpl`
   - JSON `.json`
+  - LESSCSS `.less`
+  - Sass `.scss`
   - XML `.xml`
 
 **Native**
-  - GIMP/Inkscape Palette `.gpl`
   - Adobe Swatch Exchange `.ase`
-  - Alias/WaveFront Material `.mtl`
   - Gpick Color Palette `.gpa`
 
 ### Version
