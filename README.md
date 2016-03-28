@@ -8,21 +8,21 @@ Optimized for game- and graphic design projects.
 ![Lumio](src/main/native/lumio.png)
 
 ### Related Projects
-  - [Lumio - Java](https://github.com/arcticicestudio/lumio-java)
+  - <img src="https://github.com/favicon.ico" width=16 height=16/> [Lumio - Java](https://github.com/arcticicestudio/lumio-java)
 
 ### File Formats
 **Non-Native**
   - Alias/WaveFront Material `.mtl`
-  - GIMP/Inkscape Palette `.gpl`
-  - JSON `.json`
-  - LESSCSS `.less`
-  - Sass `.scss`
-  - XML `.xml`
+  - <img src="https://www.gimp.org/images/wilber16.png" width=16 height=16/>/<img src="https://inkscape.org/favicon.ico" width=16 height=16/> GIMP/Inkscape Palette `.gpl`
+  - <img src="http://www.json.org/favicon.ico" width=16 height=16/> JSON `.json`
+  - <img src="http://lesscss.org/public/ico/favicon.ico" width=16 height=16/> LESSCSS `.less`
+  - <img src="http://sass-lang.com/favicon.ico" width=16 height=16/> Sass `.scss`
+  - <img src="https://www.w3.org/favicon.ico" width=16 height=16/> XML `.xml`
 
 **Native**
-  - Adobe Swatch Exchange `.ase`
-  - GIMP Project `.xcf`
-  - Gpick Color Palette `.gpa`
+  - <img src="http://www.adobe.com/favicon.ico" width=16 height=16/> Adobe Swatch Exchange `.ase`
+  - <img src="https://www.gimp.org/images/wilber16.png" width=16 height=16/> GIMP Project `.xcf`
+  - <img src="http://static.gpick.org/image/logo.png" width=16 height=16/> Gpick Color Palette `.gpa`
 
 ### Version
 [`0.0.0`](https://github.com/arcticicestudio/lumio/releases/latest)
@@ -59,7 +59,7 @@ Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>
 ---
 
 ### References
-  - [Lumio](https://github.com/arcticicestudio/lumio)
-  - [Sass](http://sass-lang.com)
-  - [LESSCSS](http://lesscss.org)  
-  - [Glacier - Git](https://github.com/arcticicestudio/glacier-git)  
+  - <img src="https://github.com/favicon.ico" width=16 height=16/> [Lumio](https://github.com/arcticicestudio/lumio)
+  - <img src="http://sass-lang.com/favicon.ico" width=16 height=16/> [Sass](http://sass-lang.com)
+  - <img src="http://lesscss.org/public/ico/favicon.ico" width=16 height=16/> [LESSCSS](http://lesscss.org)  
+  - <img src="https://github.com/favicon.ico" width=16 height=16/> [Glacier - Git](https://github.com/arcticicestudio/glacier-git)  
