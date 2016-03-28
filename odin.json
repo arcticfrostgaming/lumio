@@ -1,10 +1,10 @@
 {
   "id": "lumio",
   "name": "Lumio",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "date": {
    "created": "2015-04-02 10:17 UTC+0100",
-   "updated": "2016-03-28 18:05 UTC+0200"
+   "updated": "2016-03-28 20:26 UTC+0200"
   },
   "access": "public",
   "modularity": "core",
