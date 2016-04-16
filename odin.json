@@ -29,6 +29,7 @@
   },
   "engines": [],
   "devEngines": [
+    {"id": "git","version": "2.8.*","manager": "pacman"},
     {"id": "odin","version": "0.1.0","manager": "odin"}
   ],
   "specifications": [
@@ -36,7 +37,7 @@
   ],
   "dependencies": [],
   "devDependencies": [
-    {"id": "glacier-git","version": "0.18.0","manager": "odin"}
+    {"id": "glacier-git","version": "0.23.0","manager": "odin"}
   ],
   "contributors": [
     {"name": "Arctic Ice Studio","email": "development@arcticicestudio.com"}
@@ -44,7 +45,7 @@
   "copyright": "Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>",
   "license": [
     {"name": "GPL-3.0","file": "LICENSE.md"},
-    {"name": "CC-BY-NC-SA-4.0","file": "LICENSE.md"}
+    {"name": "CC-BY-SA-4.0","file": "LICENSE.md"}
   ],
   "tags": ["lumio","warm","pastel","steamed","colorful","comic","ambiance","color","palette","minecraft"]
 }
