@@ -138,7 +138,7 @@ Glacier - Git
   (https://github.com/arcticicestudio/glacier-git)
 -->
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<colors>
       <color>
          <id>dark-livid-brown</id>
          <nr>1</nr>
@@ -868,4 +868,4 @@ Glacier - Git
          <cmyk>0,43,9,33</cmyk>
          <hsl>312.3,30.3,52.7</hsl>
       </color>
-</root>
+</colors>
