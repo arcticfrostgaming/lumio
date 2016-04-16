@@ -1,1 +1,1 @@
-src/{main,scratch}/{assets,content,native,resources/media}
+src/{main,scratch}/{assets/media,content,native,resources}

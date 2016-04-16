@@ -1,7 +1,27 @@
 Lumio
 =====
 
-## 1.0.0 (2016-03-28) - Major Release
+## 1.1.0 (2016-04-16)
+### Improvements
+#### Color Palettes
+  - Added a version number field and tag for the "JSON"- and "XML" color palette file formats
+  - Removed unnecessary `element` and `colors` tags and fixed the whitespace indention of the XML file format color palette `lumio.xml`:
+
+|               | Before   | After     | Reduction |
+| ------------- | -------- | --------- | --------- |
+| Lines of code | `1786`   | `872`     | `-914`    |
+| File size     | `47.6kb` |  `20.1kb` | `27.5kb`  |
+
+#### Documentation
+  - Updated all documentations to adapt to other Arctic Ice Studio project documentation formats
+  - Changed the [Creative Commons](https://creativecommons.org) license to the [CC BY-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/) license type  
+  [![CC BY-SA-4.0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+### Bug Fixes
+  - Fixed the corrupted GIMP `.xcf` project file
+  - Moved the "GIMP/Inkscape Palette" (`lumio.gpl`) and "Alias/WaveFront Material" (`lumio.mtl`) files from the `content`- to the `native` folder
+
+## 1.0.0 (2016-03-28)
 ### Features
   - Added native file formats:
 
