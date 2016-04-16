@@ -79,5 +79,5 @@ The [Lumio](https://github.com/arcticicestudio/lumio) project is developed and a
   - <img src="http://lesscss.org/public/ico/favicon.ico" width=16 height=16/> [LESSCSS](http://lesscss.org)
   - [gitflow](http://nvie.com/posts/a-successful-git-branching-model)
   - [X Window System Documentation](http://www.x.org/releases/X11R7.7/doc)
-  - [Arctic Versioning Specification (ArcVer)](https://github.com/arcticicestudio.com/arcver)
+  - [Arctic Versioning Specification (ArcVer)](https://github.com/arcticicestudio/arcver)
   - <img src="https://github.com/favicon.ico" width=16 height=16/> [Glacier - Git](https://github.com/arcticicestudio/glacier-git)
