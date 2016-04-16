@@ -9,7 +9,7 @@ email     development@arcticicestudio.com  +
 website   http://arcticicestudio.com/lumio +
 copyright Copyright (C) 2015-2016          +
 created   2015-04-02 10:18 UTC+0100        +
-modified  2016-03-28 17:59 UTC+0200        +
+modified  2016-04-16 20:30 UTC+0200        +
 ++++++++++++++++++++++++++++++++++++++++++++
 
 [Description]
@@ -138,6 +138,7 @@ Glacier - Git
   (https://github.com/arcticicestudio/glacier-git)
 -->
 <?xml version="1.0" encoding="UTF-8"?>
+<version>1.0.0</version>
 <colors>
   <color>
     <id>dark-livid-brown</id>
