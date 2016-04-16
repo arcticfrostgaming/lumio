@@ -12,7 +12,7 @@
 #
 # [Description]
 # Git dotfile providing file attribute handling for the git-based "Lumio" project.
-# Based on the Git Ignore Pattern Dotfile of the "Glacier - Git" project (glacier-git@0.18.0).
+# Based on the Git Ignore Pattern Dotfile of the "Glacier - Git" project (glacier-git@0.23.0).
 #
 # [Index]
 #   (1) Project Environment
@@ -65,7 +65,7 @@
 #   Engines
 #     - git@2.*.* (http://git-scm.com)
 #   Skeletons
-#     - glacier-git@0.18.0 (https://github.com/arcticicestudio/glacier-git)
+#     - glacier-git@0.23.0 (https://github.com/arcticicestudio/glacier-git)
 #
 # [Copyright]
 # Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>

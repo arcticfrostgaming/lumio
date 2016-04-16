@@ -36,7 +36,7 @@
   ],
   "dependencies": [],
   "devDependencies": [
-    {"id": "glacier-git","version": "0.18.0","manager": "odin"}
+    {"id": "glacier-git","version": "0.23.0","manager": "odin"}
   ],
   "contributors": [
     {"name": "Arctic Ice Studio","email": "development@arcticicestudio.com"}
