@@ -3,7 +3,7 @@
 title     Lumio                            +
 project   lumio                            +
 file      lumio.xml                        +
-version   1.0.0                            +
+version   1.1.0                            +
 author    Arctic Ice Studio                +
 email     development@arcticicestudio.com  +
 website   http://arcticicestudio.com/lumio +
@@ -88,7 +88,7 @@ Native
   - Gpick Palette            (.gpa)
 
 [Version]
-1.0.0 (https://github.com/arcticicestudio/lumio/releases/latest)
+1.1.0 (https://github.com/arcticicestudio/lumio/releases/latest)
 
 For older versions check out the GitHub Repository (https://github.com/arcticicestudio/lumio/releases) or
 the official website http://arcticicestudio.com/lumio.
@@ -138,7 +138,7 @@ Glacier - Git
   (https://github.com/arcticicestudio/glacier-git)
 -->
 <?xml version="1.0" encoding="UTF-8"?>
-<version>1.0.0</version>
+<version>1.1.0</version>
 <colors>
   <color>
     <id>dark-livid-brown</id>

@@ -5,7 +5,7 @@
  <rdf:Description xmlns:dc='http://purl.org/dc/elements/1.1/'>
   <dc:title>
    <rdf:Alt>
-    <rdf:li xml:lang='x-default'>Lumio 1.0.0</rdf:li>
+    <rdf:li xml:lang='x-default'>Lumio</rdf:li>
    </rdf:Alt>
   </dc:title>
   <dc:creator>

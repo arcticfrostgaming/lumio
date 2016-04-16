@@ -29,12 +29,12 @@ Based on this the following projects are available:
   - <img src="http://static.gpick.org/image/logo.png" width=16 height=16/> Gpick Color Palette `.gpa`
 
 ### Version
-[`1.0.0`](https://github.com/arcticicestudio/lumio/releases/latest)
+[`1.1.0`](https://github.com/arcticicestudio/lumio/releases/latest)
 
 For older versions check out the [GitHub Repository](https://github.com/arcticicestudio/lumio) and the [official website](http://arcticicestudio.com/lumio).
 
 ### Changelog
-[`1.0.0`](CHANGELOG.md)
+[`1.1.0`](CHANGELOG.md)
 
 ### Development
 #### Workflow
