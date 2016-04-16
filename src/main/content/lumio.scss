@@ -1,15 +1,16 @@
 /*
-+++++++++++++++++++++++++++++++++++++++++++
-title     Lumio                           +
-project   lumio                           +
-file      lumio.scss                      +
-version   1.0.0                           +
-author    Arctic Ice Studio               +
-email     development@arcticicestudio.com +
-copyright Copyright (C) 2015-2016         +
-created   2015-04-02 10:18 UTC+0100       +
-modified  2016-03-28 17:59 UTC+0200       +
-+++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++
+title     Lumio                            +
+project   lumio                            +
+file      lumio.scss                       +
+version   1.0.0                            +
+author    Arctic Ice Studio                +
+email     development@arcticicestudio.com  +
+website   http://arcticicestudio.com/lumio +
+copyright Copyright (C) 2015-2016          +
+created   2015-04-02 10:18 UTC+0100        +
+modified  2016-03-28 17:59 UTC+0200        +
+++++++++++++++++++++++++++++++++++++++++++++
 
 [Description]
 Lumio is a warm pastel color palette focuses to create a steamed, but colorful comic-like ambiance.
@@ -65,53 +66,76 @@ Optimized for game- and graphic design projects.
     (3.13) Palette 14
     (3.14) Palette 15
 
-[File Formats]
-  Non-Native
-  - JSON (.json)
-  - LESSCSS (.less)
-  - Sass (.scss)
-  - XML (.xml)
+[Projects]
+Based on this the following projects are available:
 
-  Native
-    - Alias/WaveFront Material (.mtl)
-    - GIMP/Inkscape Palette (.gpl)
-    - Adobe Swatch Exchange (.ase)
-    - Gpick Palette (.gpa)
+Libraries
+  - "Lumio - Java" (https://github.com/arcticicestudio/lumio-java)
+
+Visit the official website http://arcticicestudio.com/lumio for more information.
+
+[File Formats]
+Non-Native
+  - Sass    (.scss)
+  - LESSCSS (.less)
+  - JSON    (.json)
+  - XML     (.xml)
+
+Native
+  - GIMP/Inkscape Palette    (.gcl)
+  - Adobe Swatch Exchange    (.ase)
+  - Alias/WaveFront Material (.mtl)
+  - Gpick Palette            (.gpa)
 
 [Version]
-- (https://github.com/arcticicestudio/lumio/releases/latest)
+1.0.0 (https://github.com/arcticicestudio/lumio/releases/latest)
 
 For older versions check out the GitHub Repository (https://github.com/arcticicestudio/lumio/releases) or
-the official website http://arcticicestudio.com/Lumio (actually under construction).
+the official website http://arcticicestudio.com/lumio.
 
 [Changelog]
 Check out the "CHANGELOG.md" or visit the GitHub Repository (https://github.com/arcticicestudio/lumio/CHANGELOG.md) or
-the official webiste http://arcticicestudio.com/Lumio (actually under construction).
+the official webiste http://arcticicestudio.com/lumio.
 
 [Development]
 Workflow
-  This project follows the [git-flow](http://nvie.com/posts/a-successful-git-branching-model) branching model.
+  This project follows the "git-flow" (http://nvie.com/posts/a-successful-git-branching-model) branching model.
 
 Specifications
-  This project follows the [Arctic Versioning Specification (ArcVer)](https://github.com/arcticicestudio/arcver).
+  This project follows the "Arctic Versioning Specification (ArcVer)" (https://github.com/arcticicestudio/arcver).
+
+[Recommendations]
+Fonts
+This theme matches the Open Source font [Geo](https://www.google.com/fonts/specimen/Geo).
+Visit the [GitHub Repository](https://github.com/google/fonts/tree/master/ofl/geo) for more information.
 
 [Contribution]
 Please report issues/bugs, suggestions for improvements and feature requests to the issuetracker
 at https://github.com/arcticicestudio/lumio/issues.
 
 [Author]
-Lumio (https://github.com/arcticicestudio/lumio) is developed and authored by Arctic Ice Studio (http://arcticicestudio.com).
+The "Lumio" project is developed and authored by Arctic Ice Studio.
 
 [Copyright]
 Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>
 
 [License]
-Lumio code is licensed under "GPL3" (http://www.gnu.org/licenses/gpl.txt).
-Lumio color palette itself is licensed under "CC BY-NC-SA 4.0" (http://creativecommons.org/licenses/by-nc-sa/4.0).
+Lumio code is licensed under "GPL 3.0" (http://www.gnu.org/licenses/gpl.txt).
+Lumio color palette itself is licensed under "CC BY-SA 4.0" (http://creativecommons.org/licenses/by-sa/4.0).
 
 [References]
-Sass    (http://sass-lang.com)
-LESSCSS (http://lesscss.org)
+Sass
+  (http://sass-lang.com)
+LESSCSS
+  (http://lesscss.org)
+X Window System Documentation
+  (http://www.x.org/releases/X11R7.7/doc)
+Arctic Versioning Specification
+  (http://specs.arcticicestudio.com/arcver) (ArcVer)
+gitflow
+  (http://nvie.com/posts/a-successful-git-branching-model)
+Glacier - Git
+  (https://github.com/arcticicestudio/glacier-git)
 */
 
 /* +----------------------------------------------------------------------------+

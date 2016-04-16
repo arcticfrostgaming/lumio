@@ -1,3 +1,142 @@
+<!--
+++++++++++++++++++++++++++++++++++++++++++++
+title     Lumio                            +
+project   lumio                            +
+file      lumio.xml                        +
+version   1.0.0                            +
+author    Arctic Ice Studio                +
+email     development@arcticicestudio.com  +
+website   http://arcticicestudio.com/lumio +
+copyright Copyright (C) 2015-2016          +
+created   2015-04-02 10:18 UTC+0100        +
+modified  2016-03-28 17:59 UTC+0200        +
+++++++++++++++++++++++++++++++++++++++++++++
+
+[Description]
+Lumio is a warm pastel color palette focuses to create a steamed, but colorful comic-like ambiance.
+Optimized for game- and graphic design projects.
+
+[Index]
+  (1) HEX
+    (1.0) Palette 1
+    (1.1) Palette 2
+    (1.2) Palette 3
+    (1.3) Palette 4
+    (1.4) Palette 5
+    (1.5) Palette 6
+    (1.6) Palette 7
+    (1.7) Palette 8
+    (1.8) Palette 9
+    (1.9) Palette 10
+    (1.10) Palette 11
+    (1.11) Palette 12
+    (1.12) Palette 13
+    (1.13) Palette 14
+    (1.14) Palette 15
+  (2) RGB
+    (2.0) Palette 1
+    (2.1) Palette 2
+    (2.2) Palette 3
+    (2.3) Palette 4
+    (2.4) Palette 5
+    (2.5) Palette 6
+    (2.6) Palette 7
+    (2.7) Palette 8
+    (2.8) Palette 9
+    (2.9) Palette 10
+    (2.10) Palette 11
+    (2.11) Palette 12
+    (2.12) Palette 13
+    (2.13) Palette 14
+    (2.14) Palette 15
+  (3) Ordered
+    (3.0) Palette 1
+    (3.1) Palette 2
+    (3.2) Palette 3
+    (3.3) Palette 4
+    (3.4) Palette 5
+    (3.5) Palette 6
+    (3.6) Palette 7
+    (3.7) Palette 8
+    (3.8) Palette 9
+    (3.9) Palette 10
+    (3.10) Palette 11
+    (3.11) Palette 12
+    (3.12) Palette 13
+    (3.13) Palette 14
+    (3.14) Palette 15
+
+[Projects]
+Based on this the following projects are available:
+
+Libraries
+  - "Lumio - Java" (https://github.com/arcticicestudio/lumio-java)
+
+Visit the official website http://arcticicestudio.com/lumio for more information.
+
+[File Formats]
+Non-Native
+  - Sass    (.scss)
+  - LESSCSS (.less)
+  - JSON    (.json)
+  - XML     (.xml)
+
+Native
+  - GIMP/Inkscape Palette    (.gcl)
+  - Adobe Swatch Exchange    (.ase)
+  - Alias/WaveFront Material (.mtl)
+  - Gpick Palette            (.gpa)
+
+[Version]
+1.0.0 (https://github.com/arcticicestudio/lumio/releases/latest)
+
+For older versions check out the GitHub Repository (https://github.com/arcticicestudio/lumio/releases) or
+the official website http://arcticicestudio.com/lumio.
+
+[Changelog]
+Check out the "CHANGELOG.md" or visit the GitHub Repository (https://github.com/arcticicestudio/lumio/CHANGELOG.md) or
+the official webiste http://arcticicestudio.com/lumio.
+
+[Development]
+Workflow
+  This project follows the "git-flow" (http://nvie.com/posts/a-successful-git-branching-model) branching model.
+
+Specifications
+  This project follows the "Arctic Versioning Specification (ArcVer)" (https://github.com/arcticicestudio/arcver).
+
+[Recommendations]
+Fonts
+This theme matches the Open Source font [Geo](https://www.google.com/fonts/specimen/Geo).
+Visit the [GitHub Repository](https://github.com/google/fonts/tree/master/ofl/geo) for more information.
+
+[Contribution]
+Please report issues/bugs, suggestions for improvements and feature requests to the issuetracker
+at https://github.com/arcticicestudio/lumio/issues.
+
+[Author]
+The "Lumio" project is developed and authored by Arctic Ice Studio.
+
+[Copyright]
+Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>
+
+[License]
+Lumio code is licensed under "GPL 3.0" (http://www.gnu.org/licenses/gpl.txt).
+Lumio color palette itself is licensed under "CC BY-SA 4.0" (http://creativecommons.org/licenses/by-sa/4.0).
+
+[References]
+Sass
+  (http://sass-lang.com)
+LESSCSS
+  (http://lesscss.org)
+X Window System Documentation
+  (http://www.x.org/releases/X11R7.7/doc)
+Arctic Versioning Specification
+  (http://specs.arcticicestudio.com/arcver) (ArcVer)
+gitflow
+  (http://nvie.com/posts/a-successful-git-branching-model)
+Glacier - Git
+  (https://github.com/arcticicestudio/glacier-git)
+-->
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
    <colors>
