@@ -45,7 +45,7 @@
   "copyright": "Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>",
   "license": [
     {"name": "GPL-3.0","file": "LICENSE.md"},
-    {"name": "CC-BY-NC-SA-4.0","file": "LICENSE.md"}
+    {"name": "CC-BY-SA-4.0","file": "LICENSE.md"}
   ],
   "tags": ["lumio","warm","pastel","steamed","colorful","comic","ambiance","color","palette","minecraft"]
 }
