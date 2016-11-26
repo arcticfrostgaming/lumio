@@ -1,0 +1,23 @@
+{
+  "dest": "./build/documentation/sassdoc",
+  "package": "package.json",
+  "groups": {
+    "roughcoal": "Rough Coal",
+    "softearth": "Soft Earth",
+    "hardmetal": "Hard Metal",
+    "piquantolive": "Piquant Olive",
+    "coldsnow": "Cold Snow",
+    "clearwater": "Clear Water",
+    "hotflame": "Hot Flame",
+    "roastedcocoabean": "Roasted Cocoa Bean",
+    "tropicalwood": "Tropical Wood",
+    "finesand": "Fine Sand",
+    "sweetbanana": "Sweet Banana",
+    "calmsunset": "Calm Sunset",
+    "livingforest": "Living Forest",
+    "deepsea": "Deep Sea",
+    "freshwildberries": "Fresh Wild Berries"
+  },
+  "theme": "flippant",
+  "verbose": true
+}
