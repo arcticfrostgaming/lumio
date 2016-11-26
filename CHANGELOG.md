@@ -1,9 +1,12 @@
-Lumio
-=====
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/lumio/develop/src/assets/lumio-logo-banner.svg"/></p>
 
-## 1.1.0 (2016-04-16)
-### Improvements
-#### Color Palettes
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/lumio/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/lumio.svg"/></a> <a href="https://github.com/arcticicestudio/lumio/releases/latest"><img src="https://img.shields.io/badge/pre--release---_-blue.svg"/></a> <img src="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" width=24 height=24/> <a href="https://www.npmjs.com/package/lumio"><img src="https://img.shields.io/npm/v/lumio.svg"/></a> <a href="https://www.npmjs.com/package/lumio"><img src="https://img.shields.io/npm/dt/lumio.svg"/></a> <a href="https://www.npmjs.com/package/lumio"><img src="https://img.shields.io/npm/dm/lumio.svg"/></a></p>
+
+---
+
+# 1.1.0 (2016-04-16)
+## Improvements
+### Color Palettes
   - Added a version number field and tag for the "JSON"- and "XML" color palette file formats
   - Removed unnecessary `element` and `colors` tags and fixed the whitespace indention of the XML file format color palette `lumio.xml`:
 
@@ -12,17 +15,17 @@ Lumio
 | Lines of code | `1786`   | `872`     | `-914`    |
 | File size     | `47.6kb` |  `20.1kb` | `27.5kb`  |
 
-#### Documentation
+### Documentation
   - Updated all documentations to adapt to other Arctic Ice Studio project documentation formats
   - Changed the [Creative Commons](https://creativecommons.org) license to the [CC BY-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/) license type  
   [![CC BY-SA-4.0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-### Bug Fixes
+## Bug Fixes
   - Fixed the corrupted GIMP `.xcf` project file
   - Moved the "GIMP/Inkscape Palette" (`lumio.gpl`) and "Alias/WaveFront Material" (`lumio.mtl`) files from the `content`- to the `native` folder
 
-## 1.0.0 (2016-03-28)
-### Features
+# 1.0.0 (2016-03-28)
+## Features
   - Added native file formats:
 
 | Type | Extension |
@@ -52,4 +55,5 @@ Lumio
 | <img src="http://www.json.org/favicon.ico" width=16 height=16/> JSON | `.json` |
 | <img src="https://www.w3.org/favicon.ico" width=16 height=16/> XML | `.xml` |
 
-## 0.0.0 (2016-03-28) - Project Initialization
+# 0.0.0 (2016-03-28)
+**Project Initialization**
