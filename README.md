@@ -5,7 +5,7 @@
 <p align="center">A luminous warm and calm color palette.</p>
 
 <p align="center">Created for the steam- and comic-like flat design pattern to achieve a optimal unobtrusive feeling for game- and graphic projects.<br>
-It consists of a total of eighty, carefully selected, dimmed pastel colors for a eye-comfortable, but yet colorful ambiance.</p>
+It consists of a total of eighty one, carefully selected, dimmed pastel colors for a eye-comfortable, but yet colorful ambiance.</p>
 
 ---
 
