@@ -23,7 +23,7 @@ var config = {
   project: {
     id: "lumio",
     name: "Lumio",
-    version: "1.1.0",
+    version: "2.0.0",
     repository: "https://github.com/arcticicestudio/lumio",
     author: "Arctic Ice Studio",
     email: "development@arcticicestudio.com"
