@@ -1,0 +1,821 @@
+// 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// title      Lumio                                    +
+// project    lumio                                    +
+// version    2.0.0                                    +
+// repository https://github.com/arcticicestudio/lumio +
+// author     Arctic Ice Studio                        +
+// email      development@arcticicestudio.com          +
+// copyright  Copyright (C) 2016                       +
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// 
+// [References]
+// Sass
+//   (http://sass-lang.com)
+// SassDoc
+//   (http://sassdoc.com)
+
+////
+/// A luminous warm and calm color palette.
+/// Created for the steam- and comic-like flat design pattern to achieve a optimal unobtrusive feeling for game- and
+/// graphic projects.  
+/// It consists of a total of eighty one, carefully selected, dimmed pastel colors for a eye-comfortable, but yet colorful
+/// ambiance.
+///
+/// @author Arctic Ice Studio <development@arcticicestudio.com>
+////
+
+/// Base component color of "Rough Coal".
+///
+/// The X11 color scheme name is "Dark Livid Wood".
+///
+/// @access public
+/// @group roughcoal
+/// @since 2.0.0
+$lumio0: #241C1C;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Livid Wood".
+///
+/// @access public
+/// @group roughcoal
+/// @see $lumio0
+/// @since 2.0.0
+$lumio1: #322726;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Cowboy".
+///
+/// @access public
+/// @group roughcoal
+/// @see $lumio0
+/// @since 2.0.0
+$lumio2: #443533;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Kabul".
+///
+/// @access public
+/// @group roughcoal
+/// @see $lumio0
+/// @since 2.0.0
+$lumio3: #6A5A4E;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Pine Cone".
+///
+/// @access public
+/// @group roughcoal
+/// @see $lumio0
+/// @since 2.0.0
+$lumio4: #796A58;
+
+/// Base component color of "Soft Earth".
+///
+/// The X11 color scheme name is "Morocco Brown".
+///
+/// @access public
+/// @group softearth
+/// @since 2.0.0
+$lumio5: #462D24;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Dark Oak".
+///
+/// @access public
+/// @group softearth
+/// @see $lumio5
+/// @since 2.0.0
+$lumio6: #52352A;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Cioccolato".
+///
+/// @access public
+/// @group softearth
+/// @see $lumio5
+/// @since 2.0.0
+$lumio7: #5D392A;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Old Copper".
+///
+/// @access public
+/// @group softearth
+/// @see $lumio5
+/// @since 2.0.0
+$lumio8: #68402F;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Bull Shot".
+///
+/// @access public
+/// @group softearth
+/// @see $lumio5
+/// @since 2.0.0
+$lumio9: #7A4830;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Korma".
+///
+/// @access public
+/// @group softearth
+/// @see $lumio5
+/// @since 2.0.0
+$lumio10: #885735;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Natural".
+///
+/// @access public
+/// @group softearth
+/// @see $lumio5
+/// @since 2.0.0
+$lumio11: #976538;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Rusty Nail".
+///
+/// @access public
+/// @group softearth
+/// @see $lumio5
+/// @since 2.0.0
+$lumio12: #A3743B;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Tussock".
+///
+/// @access public
+/// @group softearth
+/// @see $lumio5
+/// @since 2.0.0
+$lumio13: #AF873E;
+
+/// Base component color of "Hard Metal".
+///
+/// The X11 color scheme name is "Pharlap".
+///
+/// @access public
+/// @group hardmetal
+/// @since 2.0.0
+$lumio14: #7E625E;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Dark Hemp".
+///
+/// @access public
+/// @group hardmetal
+/// @see $lumio14
+/// @since 2.0.0
+$lumio15: #8C7168;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Hemp".
+///
+/// @access public
+/// @group hardmetal
+/// @see $lumio14
+/// @since 2.0.0
+$lumio16: #9D8275;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Sandrift".
+///
+/// @access public
+/// @group hardmetal
+/// @see $lumio14
+/// @since 2.0.0
+$lumio17: #A9917E;
+
+/// Base component color of "Piquant Olive".
+///
+/// The X11 color scheme name is "Olive Haze".
+///
+/// @access public
+/// @group piquantolive
+/// @since 2.0.0
+$lumio18: #817B60;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Gurkha".
+///
+/// @access public
+/// @group piquantolive
+/// @see $lumio18
+/// @since 2.0.0
+$lumio19: #958E6F;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Hillary".
+///
+/// @access public
+/// @group piquantolive
+/// @see $lumio18
+/// @since 2.0.0
+$lumio20: #A9A37E;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "White Rock".
+///
+/// @access public
+/// @group piquantolive
+/// @see $lumio18
+/// @since 2.0.0
+$lumio21: #CCC9AA;
+
+/// Base component color of "Cold Snow".
+///
+/// The X11 color scheme name is "Oyster Pink".
+///
+/// @access public
+/// @group coldsnow
+/// @since 2.0.0
+$lumio22: #CCAFAA;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Wafer".
+///
+/// @access public
+/// @group coldsnow
+/// @see $lumio22
+/// @since 2.0.0
+$lumio23: #D8C0B6;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Bizarre".
+///
+/// @access public
+/// @group coldsnow
+/// @see $lumio22
+/// @since 2.0.0
+$lumio24: #E3D0C4;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Quarter Spanish White".
+///
+/// @access public
+/// @group coldsnow
+/// @see $lumio22
+/// @since 2.0.0
+$lumio25: #E9DBCC;
+
+/// Base component color of "Clear Water".
+///
+/// The X11 color scheme name is "Dark Lochmara".
+///
+/// @access public
+/// @group clearwater
+/// @since 2.0.0
+$lumio26: #04598F;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Lochmara".
+///
+/// @access public
+/// @group clearwater
+/// @see $lumio26
+/// @since 2.0.0
+$lumio27: #046397;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Curious Blue".
+///
+/// @access public
+/// @group clearwater
+/// @see $lumio26
+/// @since 2.0.0
+$lumio28: #046CA5;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Boston Blue".
+///
+/// @access public
+/// @group clearwater
+/// @see $lumio26
+/// @since 2.0.0
+$lumio29: #0480A4;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Viking".
+///
+/// @access public
+/// @group clearwater
+/// @see $lumio26
+/// @since 2.0.0
+$lumio30: #1398A9;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Java".
+///
+/// @access public
+/// @group clearwater
+/// @see $lumio26
+/// @since 2.0.0
+$lumio31: #26A4AD;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Sea Green".
+///
+/// @access public
+/// @group clearwater
+/// @see $lumio26
+/// @since 2.0.0
+$lumio32: #36B4B0;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Light Sea Green".
+///
+/// @access public
+/// @group clearwater
+/// @see $lumio26
+/// @since 2.0.0
+$lumio33: #4DC4B1;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Aquamarine".
+///
+/// @access public
+/// @group clearwater
+/// @see $lumio26
+/// @since 2.0.0
+$lumio34: #54DEB2;
+
+/// Base component color of "Hot Flame".
+///
+/// The X11 color scheme name is "Barossa".
+///
+/// @access public
+/// @group hotflame
+/// @since 2.0.0
+$lumio35: #553A47;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Black Rose".
+///
+/// @access public
+/// @group hotflame
+/// @see $lumio35
+/// @since 2.0.0
+$lumio36: #784452;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Merlot".
+///
+/// @access public
+/// @group hotflame
+/// @see $lumio35
+/// @since 2.0.0
+$lumio37: #904851;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Roof terracotta".
+///
+/// @access public
+/// @group hotflame
+/// @see $lumio35
+/// @since 2.0.0
+$lumio38: #A84E4E;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Flame Pea".
+///
+/// @access public
+/// @group hotflame
+/// @see $lumio35
+/// @since 2.0.0
+$lumio39: #C1604D;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Japonica".
+///
+/// @access public
+/// @group hotflame
+/// @see $lumio35
+/// @since 2.0.0
+$lumio40: #D47055;
+
+/// Base component color of "Roasted Cocoa Bean".
+///
+/// The X11 color scheme name is "Wine Berry".
+///
+/// @access public
+/// @group roastedcocoabean
+/// @since 2.0.0
+$lumio41: #59313B;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Sanguine Brown".
+///
+/// @access public
+/// @group roastedcocoabean
+/// @see $lumio41
+/// @since 2.0.0
+$lumio42: #6F393A;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Nutmeg".
+///
+/// @access public
+/// @group roastedcocoabean
+/// @see $lumio41
+/// @since 2.0.0
+$lumio43: #80483D;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Paarl".
+///
+/// @access public
+/// @group roastedcocoabean
+/// @see $lumio41
+/// @since 2.0.0
+$lumio44: #93573F;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Red Beech".
+///
+/// @access public
+/// @group roastedcocoabean
+/// @see $lumio41
+/// @since 2.0.0
+$lumio45: #A36A41;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Dirty Twine".
+///
+/// @access public
+/// @group roastedcocoabean
+/// @see $lumio41
+/// @since 2.0.0
+$lumio46: #B28142;
+
+/// Base component color of "Tropical Wood".
+///
+/// The X11 color scheme name is "Lusty".
+///
+/// @access public
+/// @group tropicalwood
+/// @since 2.0.0
+$lumio47: #843C35;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Mojo".
+///
+/// @access public
+/// @group tropicalwood
+/// @see $lumio47
+/// @since 2.0.0
+$lumio48: #9C4C3D;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Tuscany".
+///
+/// @access public
+/// @group tropicalwood
+/// @see $lumio47
+/// @since 2.0.0
+$lumio49: #AD6143;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Bourbon".
+///
+/// @access public
+/// @group tropicalwood
+/// @see $lumio47
+/// @since 2.0.0
+$lumio50: #BA7845;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Anzac".
+///
+/// @access public
+/// @group tropicalwood
+/// @see $lumio47
+/// @since 2.0.0
+$lumio51: #C99147;
+
+/// Base component color of "Fine Sand".
+///
+/// The X11 color scheme name is "Rope".
+///
+/// @access public
+/// @group finesand
+/// @since 2.0.0
+$lumio52: #A26846;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Whiskey".
+///
+/// @access public
+/// @group finesand
+/// @see $lumio52
+/// @since 2.0.0
+$lumio53: #B67D4F;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Dark Twine".
+///
+/// @access public
+/// @group finesand
+/// @see $lumio52
+/// @since 2.0.0
+$lumio54: #BF8953;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Twine".
+///
+/// @access public
+/// @group finesand
+/// @see $lumio52
+/// @since 2.0.0
+$lumio55: #C59759;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Apache".
+///
+/// @access public
+/// @group finesand
+/// @see $lumio52
+/// @since 2.0.0
+$lumio56: #CBA65B;
+
+/// Base component color of "Sweet Banana".
+///
+/// The X11 color scheme name is "Dark Rope".
+///
+/// @access public
+/// @group sweetbanana
+/// @since 2.0.0
+$lumio57: #945F3C;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Rusty Twine".
+///
+/// @access public
+/// @group sweetbanana
+/// @see $lumio57
+/// @since 2.0.0
+$lumio58: #B28142;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Hokey Pokey".
+///
+/// @access public
+/// @group sweetbanana
+/// @see $lumio57
+/// @since 2.0.0
+$lumio59: #CDA544;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Portica".
+///
+/// @access public
+/// @group sweetbanana
+/// @see $lumio57
+/// @since 2.0.0
+$lumio60: #ECCF49;
+
+/// Base component color of "Calm Sunset".
+///
+/// The X11 color scheme name is "Alert Tan".
+///
+/// @access public
+/// @group calmsunset
+/// @since 2.0.0
+$lumio61: #8D492B;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Piper".
+///
+/// @access public
+/// @group calmsunset
+/// @see $lumio61
+/// @since 2.0.0
+$lumio62: #9C522F;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Rich Gold".
+///
+/// @access public
+/// @group calmsunset
+/// @see $lumio61
+/// @since 2.0.0
+$lumio63: #AD5E33;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Bamboo".
+///
+/// @access public
+/// @group calmsunset
+/// @see $lumio61
+/// @since 2.0.0
+$lumio64: #BF6B3E;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Zest".
+///
+/// @access public
+/// @group calmsunset
+/// @see $lumio61
+/// @since 2.0.0
+$lumio65: #CF7B43;
+
+/// Base component color of "Living Forest".
+///
+/// The X11 color scheme name is "Verdun Green".
+///
+/// @access public
+/// @group livingforest
+/// @since 2.0.0
+$lumio66: #505B1E;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Rain Forest".
+///
+/// @access public
+/// @group livingforest
+/// @see $lumio66
+/// @since 2.0.0
+$lumio67: #626B20;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Dark Trendy Green".
+///
+/// @access public
+/// @group livingforest
+/// @see $lumio66
+/// @since 2.0.0
+$lumio68: #777922;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Trendy Green".
+///
+/// @access public
+/// @group livingforest
+/// @see $lumio66
+/// @since 2.0.0
+$lumio69: #898B23;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Citron".
+///
+/// @access public
+/// @group livingforest
+/// @see $lumio66
+/// @since 2.0.0
+$lumio70: #9D9F28;
+
+/// Base component color of "Deep Sea".
+///
+/// The X11 color scheme name is "Blue Stone".
+///
+/// @access public
+/// @group deepsea
+/// @since 2.0.0
+$lumio71: #1F6C6B;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Deep Sea".
+///
+/// @access public
+/// @group deepsea
+/// @see $lumio71
+/// @since 2.0.0
+$lumio72: #20806A;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Amazon".
+///
+/// @access public
+/// @group deepsea
+/// @see $lumio71
+/// @since 2.0.0
+$lumio73: #469870;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "De York".
+///
+/// @access public
+/// @group deepsea
+/// @see $lumio71
+/// @since 2.0.0
+$lumio74: #75B47A;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Gossip".
+///
+/// @access public
+/// @group deepsea
+/// @see $lumio71
+/// @since 2.0.0
+$lumio75: #8CC47B;
+
+/// Base component color of "Fresh Wild Berries".
+///
+/// The X11 color scheme name is "Martinique".
+///
+/// @access public
+/// @group freshwildberries
+/// @since 2.0.0
+$lumio76: #483F50;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Trendy Pink".
+///
+/// @access public
+/// @group freshwildberries
+/// @see $lumio76
+/// @since 2.0.0
+$lumio77: #664D6E;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Affair".
+///
+/// @access public
+/// @group freshwildberries
+/// @see $lumio76
+/// @since 2.0.0
+$lumio78: #7F5583;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Eminence".
+///
+/// @access public
+/// @group freshwildberries
+/// @see $lumio76
+/// @since 2.0.0
+$lumio79: #975E95;
+
+/// Brighter color of the base component color.
+///
+/// The X11 color scheme name is "Plum".
+///
+/// @access public
+/// @group freshwildberries
+/// @see $lumio76
+/// @since 2.0.0
+$lumio80: #AB629C;
