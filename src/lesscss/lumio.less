@@ -1,0 +1,835 @@
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Lumio                                    +
+project    lumio                                    +
+version                                             +
+repository https://github.com/arcticicestudio/lumio +
+author     Arctic Ice Studio                        +
+email      development@arcticicestudio.com          +
+copyright  Copyright (C) 2016                       +
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[References]
+KSS
+  (http://warpspire.com/kss)
+kss-node
+  (https://github.com/kss-node/kss-node)
+*/
+
+// A luminous warm and calm color palette.
+// Created for the steam- and comic-like flat design pattern to achieve a optimal unobtrusive feeling for game- and
+// graphic projects.  
+// It consists of a total of eighty one, carefully selected, dimmed pastel colors for a eye-comfortable, but yet colorful
+// ambiance.
+
+// Styleguide Lumio
+//
+// Base component color of "Rough Coal".
+//
+// The X11 color scheme name is "Dark Livid Wood".
+//
+// Markup:
+// <div style="background-color:#241C1C; width=60; height=60"></div>
+//
+// Styleguide Lumio - Rough Coal
+@lumio0: #241C1C;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Livid Wood".
+//
+// Markup:
+// <div style="background-color:#322726; width=60; height=60"></div>
+//
+// Styleguide Lumio - Rough Coal
+@lumio1: #322726;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Cowboy".
+//
+// Markup:
+// <div style="background-color:#443533; width=60; height=60"></div>
+//
+// Styleguide Lumio - Rough Coal
+@lumio2: #443533;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Kabul".
+//
+// Markup:
+// <div style="background-color:#6A5A4E; width=60; height=60"></div>
+//
+// Styleguide Lumio - Rough Coal
+@lumio3: #6A5A4E;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Pine Cone".
+//
+// Markup:
+// <div style="background-color:#796A58; width=60; height=60"></div>
+//
+// Styleguide Lumio - Rough Coal
+@lumio4: #796A58;
+
+// Base component color of "Soft Earth".
+//
+// The X11 color scheme name is "Morocco Brown".
+//
+// Markup:
+// <div style="background-color:#462D24; width=60; height=60"></div>
+//
+// Styleguide Lumio - Soft Earth
+@lumio5: #462D24;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Dark Oak".
+//
+// Markup:
+// <div style="background-color:#52352A; width=60; height=60"></div>
+//
+// Styleguide Lumio - Soft Earth
+@lumio6: #52352A;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Cioccolato".
+//
+// Markup:
+// <div style="background-color:#5D392A; width=60; height=60"></div>
+//
+// Styleguide Lumio - Soft Earth
+@lumio7: #5D392A;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Old Copper".
+//
+// Markup:
+// <div style="background-color:#68402F; width=60; height=60"></div>
+//
+// Styleguide Lumio - Soft Earth
+@lumio8: #68402F;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Bull Shot".
+//
+// Markup:
+// <div style="background-color:#7A4830; width=60; height=60"></div>
+//
+// Styleguide Lumio - Soft Earth
+@lumio9: #7A4830;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Korma".
+//
+// Markup:
+// <div style="background-color:#885735; width=60; height=60"></div>
+//
+// Styleguide Lumio - Soft Earth
+@lumio10: #885735;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Natural".
+//
+// Markup:
+// <div style="background-color:#976538; width=60; height=60"></div>
+//
+// Styleguide Lumio - Soft Earth
+@lumio11: #976538;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Rusty Nail".
+//
+// Markup:
+// <div style="background-color:#A3743B; width=60; height=60"></div>
+//
+// Styleguide Lumio - Soft Earth
+@lumio12: #A3743B;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Tussock".
+//
+// Markup:
+// <div style="background-color:#AF873E; width=60; height=60"></div>
+//
+// Styleguide Lumio - Soft Earth
+@lumio13: #AF873E;
+
+// Base component color of "Hard Metal".
+//
+// The X11 color scheme name is "Pharlap".
+//
+// Markup:
+// <div style="background-color:#7E625E; width=60; height=60"></div>
+//
+// Styleguide Lumio - Hard Metal
+@lumio14: #7E625E;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Dark Hemp".
+//
+// Markup:
+// <div style="background-color:#8C7168; width=60; height=60"></div>
+//
+// Styleguide Lumio - Hard Metal
+@lumio15: #8C7168;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Hemp".
+//
+// Markup:
+// <div style="background-color:#9D8275; width=60; height=60"></div>
+//
+// Styleguide Lumio - Hard Metal
+@lumio16: #9D8275;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Sandrift".
+//
+// Markup:
+// <div style="background-color:#A9917E; width=60; height=60"></div>
+//
+// Styleguide Lumio - Hard Metal
+@lumio17: #A9917E;
+
+// Base component color of "Piquant Olive".
+//
+// The X11 color scheme name is "Olive Haze".
+//
+// Markup:
+// <div style="background-color:#817B60; width=60; height=60"></div>
+//
+// Styleguide Lumio - Piquant Olive
+@lumio18: #817B60;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Gurkha".
+//
+// Markup:
+// <div style="background-color:#958E6F; width=60; height=60"></div>
+//
+// Styleguide Lumio - Piquant Olive
+@lumio19: #958E6F;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Hillary".
+//
+// Markup:
+// <div style="background-color:#A9A37E; width=60; height=60"></div>
+//
+// Styleguide Lumio - Piquant Olive
+@lumio20: #A9A37E;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "White Rock".
+//
+// Markup:
+// <div style="background-color:#CCC9AA; width=60; height=60"></div>
+//
+// Styleguide Lumio - Piquant Olive
+@lumio21: #CCC9AA;
+
+// Base component color of "Cold Snow".
+//
+// The X11 color scheme name is "Oyster Pink".
+//
+// Markup:
+// <div style="background-color:#CCAFAA; width=60; height=60"></div>
+//
+// Styleguide Lumio - Cold Snow
+@lumio22: #CCAFAA;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Wafer".
+//
+// Markup:
+// <div style="background-color:#D8C0B6; width=60; height=60"></div>
+//
+// Styleguide Lumio - Cold Snow
+@lumio23: #D8C0B6;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Bizarre".
+//
+// Markup:
+// <div style="background-color:#E3D0C4; width=60; height=60"></div>
+//
+// Styleguide Lumio - Cold Snow
+@lumio24: #E3D0C4;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Quarter Spanish White".
+//
+// Markup:
+// <div style="background-color:#E9DBCC; width=60; height=60"></div>
+//
+// Styleguide Lumio - Cold Snow
+@lumio25: #E9DBCC;
+
+// Base component color of "Clear Water".
+//
+// The X11 color scheme name is "Dark Lochmara".
+//
+// Markup:
+// <div style="background-color:#04598F; width=60; height=60"></div>
+//
+// Styleguide Lumio - Clear Water
+@lumio26: #04598F;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Lochmara".
+//
+// Markup:
+// <div style="background-color:#046397; width=60; height=60"></div>
+//
+// Styleguide Lumio - Clear Water
+@lumio27: #046397;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Curious Blue".
+//
+// Markup:
+// <div style="background-color:#046CA5; width=60; height=60"></div>
+//
+// Styleguide Lumio - Clear Water
+@lumio28: #046CA5;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Boston Blue".
+//
+// Markup:
+// <div style="background-color:#0480A4; width=60; height=60"></div>
+//
+// Styleguide Lumio - Clear Water
+@lumio29: #0480A4;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Viking".
+//
+// Markup:
+// <div style="background-color:#1398A9; width=60; height=60"></div>
+//
+// Styleguide Lumio - Clear Water
+@lumio30: #1398A9;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Java".
+//
+// Markup:
+// <div style="background-color:#26A4AD; width=60; height=60"></div>
+//
+// Styleguide Lumio - Clear Water
+@lumio31: #26A4AD;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Sea Green".
+//
+// Markup:
+// <div style="background-color:#36B4B0; width=60; height=60"></div>
+//
+// Styleguide Lumio - Clear Water
+@lumio32: #36B4B0;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Light Sea Green".
+//
+// Markup:
+// <div style="background-color:#4DC4B1; width=60; height=60"></div>
+//
+// Styleguide Lumio - Clear Water
+@lumio33: #4DC4B1;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Aquamarine".
+//
+// Markup:
+// <div style="background-color:#54DEB2; width=60; height=60"></div>
+//
+// Styleguide Lumio - Clear Water
+@lumio34: #54DEB2;
+
+// Base component color of "Hot Flame".
+//
+// The X11 color scheme name is "Barossa".
+//
+// Markup:
+// <div style="background-color:#553A47; width=60; height=60"></div>
+//
+// Styleguide Lumio - Hot Flame
+@lumio35: #553A47;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Black Rose".
+//
+// Markup:
+// <div style="background-color:#784452; width=60; height=60"></div>
+//
+// Styleguide Lumio - Hot Flame
+@lumio36: #784452;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Merlot".
+//
+// Markup:
+// <div style="background-color:#904851; width=60; height=60"></div>
+//
+// Styleguide Lumio - Hot Flame
+@lumio37: #904851;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Roof terracotta".
+//
+// Markup:
+// <div style="background-color:#A84E4E; width=60; height=60"></div>
+//
+// Styleguide Lumio - Hot Flame
+@lumio38: #A84E4E;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Flame Pea".
+//
+// Markup:
+// <div style="background-color:#C1604D; width=60; height=60"></div>
+//
+// Styleguide Lumio - Hot Flame
+@lumio39: #C1604D;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Japonica".
+//
+// Markup:
+// <div style="background-color:#D47055; width=60; height=60"></div>
+//
+// Styleguide Lumio - Hot Flame
+@lumio40: #D47055;
+
+// Base component color of "Roasted Cocoa Bean".
+//
+// The X11 color scheme name is "Wine Berry".
+//
+// Markup:
+// <div style="background-color:#59313B; width=60; height=60"></div>
+//
+// Styleguide Lumio - Roasted Cocoa Bean
+@lumio41: #59313B;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Sanguine Brown".
+//
+// Markup:
+// <div style="background-color:#6F393A; width=60; height=60"></div>
+//
+// Styleguide Lumio - Roasted Cocoa Bean
+@lumio42: #6F393A;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Nutmeg".
+//
+// Markup:
+// <div style="background-color:#80483D; width=60; height=60"></div>
+//
+// Styleguide Lumio - Roasted Cocoa Bean
+@lumio43: #80483D;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Paarl".
+//
+// Markup:
+// <div style="background-color:#93573F; width=60; height=60"></div>
+//
+// Styleguide Lumio - Roasted Cocoa Bean
+@lumio44: #93573F;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Red Beech".
+//
+// Markup:
+// <div style="background-color:#A36A41; width=60; height=60"></div>
+//
+// Styleguide Lumio - Roasted Cocoa Bean
+@lumio45: #A36A41;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Dirty Twine".
+//
+// Markup:
+// <div style="background-color:#B28142; width=60; height=60"></div>
+//
+// Styleguide Lumio - Roasted Cocoa Bean
+@lumio46: #B28142;
+
+// Base component color of "Tropical Wood".
+//
+// The X11 color scheme name is "Lusty".
+//
+// Markup:
+// <div style="background-color:#843C35; width=60; height=60"></div>
+//
+// Styleguide Lumio - Tropical Wood
+@lumio47: #843C35;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Mojo".
+//
+// Markup:
+// <div style="background-color:#9C4C3D; width=60; height=60"></div>
+//
+// Styleguide Lumio - Tropical Wood
+@lumio48: #9C4C3D;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Tuscany".
+//
+// Markup:
+// <div style="background-color:#AD6143; width=60; height=60"></div>
+//
+// Styleguide Lumio - Tropical Wood
+@lumio49: #AD6143;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Bourbon".
+//
+// Markup:
+// <div style="background-color:#BA7845; width=60; height=60"></div>
+//
+// Styleguide Lumio - Tropical Wood
+@lumio50: #BA7845;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Anzac".
+//
+// Markup:
+// <div style="background-color:#C99147; width=60; height=60"></div>
+//
+// Styleguide Lumio - Tropical Wood
+@lumio51: #C99147;
+
+// Base component color of "Fine Sand".
+//
+// The X11 color scheme name is "Rope".
+//
+// Markup:
+// <div style="background-color:#A26846; width=60; height=60"></div>
+//
+// Styleguide Lumio - Fine Sand
+@lumio52: #A26846;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Whiskey".
+//
+// Markup:
+// <div style="background-color:#B67D4F; width=60; height=60"></div>
+//
+// Styleguide Lumio - Fine Sand
+@lumio53: #B67D4F;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Dark Twine".
+//
+// Markup:
+// <div style="background-color:#BF8953; width=60; height=60"></div>
+//
+// Styleguide Lumio - Fine Sand
+@lumio54: #BF8953;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Twine".
+//
+// Markup:
+// <div style="background-color:#C59759; width=60; height=60"></div>
+//
+// Styleguide Lumio - Fine Sand
+@lumio55: #C59759;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Apache".
+//
+// Markup:
+// <div style="background-color:#CBA65B; width=60; height=60"></div>
+//
+// Styleguide Lumio - Fine Sand
+@lumio56: #CBA65B;
+
+// Base component color of "Sweet Banana".
+//
+// The X11 color scheme name is "Dark Rope".
+//
+// Markup:
+// <div style="background-color:#945F3C; width=60; height=60"></div>
+//
+// Styleguide Lumio - Sweet Banana
+@lumio57: #945F3C;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Rusty Twine".
+//
+// Markup:
+// <div style="background-color:#B28142; width=60; height=60"></div>
+//
+// Styleguide Lumio - Sweet Banana
+@lumio58: #B28142;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Hokey Pokey".
+//
+// Markup:
+// <div style="background-color:#CDA544; width=60; height=60"></div>
+//
+// Styleguide Lumio - Sweet Banana
+@lumio59: #CDA544;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Portica".
+//
+// Markup:
+// <div style="background-color:#ECCF49; width=60; height=60"></div>
+//
+// Styleguide Lumio - Sweet Banana
+@lumio60: #ECCF49;
+
+// Base component color of "Calm Sunset".
+//
+// The X11 color scheme name is "Alert Tan".
+//
+// Markup:
+// <div style="background-color:#8D492B; width=60; height=60"></div>
+//
+// Styleguide Lumio - Calm Sunset
+@lumio61: #8D492B;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Piper".
+//
+// Markup:
+// <div style="background-color:#9C522F; width=60; height=60"></div>
+//
+// Styleguide Lumio - Calm Sunset
+@lumio62: #9C522F;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Rich Gold".
+//
+// Markup:
+// <div style="background-color:#AD5E33; width=60; height=60"></div>
+//
+// Styleguide Lumio - Calm Sunset
+@lumio63: #AD5E33;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Bamboo".
+//
+// Markup:
+// <div style="background-color:#BF6B3E; width=60; height=60"></div>
+//
+// Styleguide Lumio - Calm Sunset
+@lumio64: #BF6B3E;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Zest".
+//
+// Markup:
+// <div style="background-color:#CF7B43; width=60; height=60"></div>
+//
+// Styleguide Lumio - Calm Sunset
+@lumio65: #CF7B43;
+
+// Base component color of "Living Forest".
+//
+// The X11 color scheme name is "Verdun Green".
+//
+// Markup:
+// <div style="background-color:#505B1E; width=60; height=60"></div>
+//
+// Styleguide Lumio - Living Forest
+@lumio66: #505B1E;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Rain Forest".
+//
+// Markup:
+// <div style="background-color:#626B20; width=60; height=60"></div>
+//
+// Styleguide Lumio - Living Forest
+@lumio67: #626B20;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Dark Trendy Green".
+//
+// Markup:
+// <div style="background-color:#777922; width=60; height=60"></div>
+//
+// Styleguide Lumio - Living Forest
+@lumio68: #777922;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Trendy Green".
+//
+// Markup:
+// <div style="background-color:#898B23; width=60; height=60"></div>
+//
+// Styleguide Lumio - Living Forest
+@lumio69: #898B23;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Citron".
+//
+// Markup:
+// <div style="background-color:#9D9F28; width=60; height=60"></div>
+//
+// Styleguide Lumio - Living Forest
+@lumio70: #9D9F28;
+
+// Base component color of "Deep Sea".
+//
+// The X11 color scheme name is "Blue Stone".
+//
+// Markup:
+// <div style="background-color:#1F6C6B; width=60; height=60"></div>
+//
+// Styleguide Lumio - Deep Sea
+@lumio71: #1F6C6B;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Deep Sea".
+//
+// Markup:
+// <div style="background-color:#20806A; width=60; height=60"></div>
+//
+// Styleguide Lumio - Deep Sea
+@lumio72: #20806A;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Amazon".
+//
+// Markup:
+// <div style="background-color:#469870; width=60; height=60"></div>
+//
+// Styleguide Lumio - Deep Sea
+@lumio73: #469870;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "De York".
+//
+// Markup:
+// <div style="background-color:#75B47A; width=60; height=60"></div>
+//
+// Styleguide Lumio - Deep Sea
+@lumio74: #75B47A;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Gossip".
+//
+// Markup:
+// <div style="background-color:#8CC47B; width=60; height=60"></div>
+//
+// Styleguide Lumio - Deep Sea
+@lumio75: #8CC47B;
+
+// Base component color of "Fresh Wild Berries".
+//
+// The X11 color scheme name is "Martinique".
+//
+// Markup:
+// <div style="background-color:#483F50; width=60; height=60"></div>
+//
+// Styleguide Lumio - Fresh Wild Berries
+@lumio76: #483F50;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Trendy Pink".
+//
+// Markup:
+// <div style="background-color:#664D6E; width=60; height=60"></div>
+//
+// Styleguide Lumio - Fresh Wild Berries
+@lumio77: #664D6E;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Affair".
+//
+// Markup:
+// <div style="background-color:#7F5583; width=60; height=60"></div>
+//
+// Styleguide Lumio - Fresh Wild Berries
+@lumio78: #7F5583;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Eminence".
+//
+// Markup:
+// <div style="background-color:#975E95; width=60; height=60"></div>
+//
+// Styleguide Lumio - Fresh Wild Berries
+@lumio79: #975E95;
+
+// Brighter color of the base component color.
+//
+// The X11 color scheme name is "Plum".
+//
+// Markup:
+// <div style="background-color:#AB629C; width=60; height=60"></div>
+//
+// Styleguide Lumio - Fresh Wild Berries
+@lumio80: #AB629C;
